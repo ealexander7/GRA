@@ -2,19 +2,6 @@
 <html><head>
 <meta charset="UTF-8">
 <title>Pearl Theater</title>
-	</div>
-            <video 
-                class="background-video"
-                                preload="metadata"
-                autoplay
-                muted 
-                playsinline
-                loop>
-                <source src="https://slowburntheatre.org/wp-content/uploads/2025/09/15th-Anniversary-Reel-for-Website_Compress.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            </div>
-
 <style type="text/css">
 body  {
     margin: 0;
@@ -49,23 +36,47 @@ ul a li {
 }
 ul a li:hover {
 		background-color: red;
+		border-radius: 40%;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify: center;
+	flex-direction: column;
+}
+h1{
+	color:#333;
+	margin-bottom: 60px;
+}
+iframe{
+	width: 80%
+	height: 500px;
+}
+footer{
+		font-size:12px;
+		padding:16px;
+		color:black;
+		font-family:sans-serif;
 }
 	#home {
 		background-image: url(theater.png);
-}:
+}
 	#media {
-		background-image: url(bailey_hall-interior.jpeg);
+		background-image: url(0001_Pearl.jpg);
 }
 	#location {
-		background-image: url(baileyhall2.jpeg);
+		background-image: url(palms.jpg);
 	}
+	
 </style>
 </head>
 
 <body>
 <wrapper>
   <header>
-	  <h1>Name of the Theater</h1>
+	  <h1>Pearl Theater</h1>
   </header>
   <section id="home">
     <nav>
@@ -74,6 +85,8 @@ ul a li:hover {
         <a href="#media"><li>Media</li></a>
         <a href="#location"><li>Location</li></a>
       </ul>
+	</div>
+           
     </nav>
     <h2>Home</h2>
   </section>
@@ -97,7 +110,27 @@ ul a li:hover {
     </nav>
     <h2>Location</h2>
   </section>
-  <footer><p>© 2026, Ericka Red. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+	 <video 
+                class="background-video"
+                                preload="metadata"
+                autoplay
+                muted 
+                playsinline
+                loop>
+                <source src="https://slowburntheatre.org/wp-content/uploads/2025/09/15th-Anniversary-Reel-for-Website_Compress.mp4" type="video/mp4">
+      
+            </video>
+	
+            </div>
+	<iframe src="https://calendar.google.com/calendar/embed?src=bf165465a417483b9637e85bb1c34470a35411a97d6dff3ffc64178f8dde7d5c%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	
+<div class="container">
+	<h1>Embeded Location Map</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28013066.078784898!2d-124.093793576613!3d31.01053987557694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c69929a4e157%3A0x77d26ea79793065d!2sPearl%20Theater!5e0!3m2!1sen!2sus!4v1792478845571!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+	</div>
+	
+  <footer><p>© 2026, Ericka Red. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. 
+  Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
 </wrapper>
 </body>
 </html>
