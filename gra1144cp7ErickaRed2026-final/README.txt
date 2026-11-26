@@ -1,0 +1,1 @@
+Open Dreamweaver > Site > New Site and select this folder. Open index.html. Images are enhanced, upscaled crops from the supplied screenshot, not native high-resolution photographs. The logo uses reconstructed antialiased edges. Embedded text and the approximated lower hero background are retained. Search is a demonstration only.
